@@ -1,0 +1,17 @@
+{
+  "name": "pagekit",
+  "version": "1.0.0",
+  "description": "Scaffold PHP and vanilla JavaScript SPA pages from the command line.",
+  "type": "module",
+  "bin": {
+    "pagekit": "./create-page.mjs"
+  },
+  "files": [
+    "create-page.mjs",
+    "templates/**",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
